@@ -1,0 +1,15 @@
+Content\effects.xnb
+Content\texturemap.xnb
+Content\FloorTexture.xnb
+Content\Walltexture.xnb
+Content\TitleScreen.xnb
+Content\TitleScreenBright.xnb
+Content\Credits.xnb
+Content\Exit.xnb
+Content\Start.xnb
+Content\Arial.xnb
+Content\target.xnb
+Content\xwing.xnb
+Content\Slobber.xnb
+Content\Ground.xnb
+Content\Checker_0.xnb

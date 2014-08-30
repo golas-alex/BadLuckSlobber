@@ -1,0 +1,75 @@
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.exe
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.pdb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.csprojResolveAssemblyReference.cache
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.exe
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.pdb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\texturemap.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\effects.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Arial.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\target.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\xwing.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Ground.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Checker_0.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FloorTexture.xnb
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Walltexture.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FloorTexture.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Walltexture.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Arial.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.exe
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.pdb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.csprojResolveAssemblyReference.cache
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.exe
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.pdb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\effects.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\texturemap.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FloorTexture.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Walltexture.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Arial.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\target.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\xwing.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Ground.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Checker_0.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.exe
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.pdb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.csprojResolveAssemblyReference.cache
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.exe
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.pdb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreen.xnb
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenBright.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.csprojResolveAssemblyReference.cache
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.exe
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\obj\x86\Debug\BadLuckSlobber.pdb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\effects.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\texturemap.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FloorTexture.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Walltexture.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreen.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenBright.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Credits.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Start.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Arial.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\target.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\xwing.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Ground.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Checker_0.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.exe
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\BadLuckSlobber.pdb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\NewGame.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Quit.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Settings.xnb
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenFinal.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreen.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenBright.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Credits.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\NewGame.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Quit.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Settings.xnb
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenFinal.xnb
