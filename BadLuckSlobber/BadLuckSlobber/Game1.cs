@@ -317,7 +317,8 @@ namespace BadLuckSlobber
             {
                 DrawModel(playerModel, player.PlayerWorld);
                 level.DrawLevel(camera);
-                hud.Draw(spriteBatch, device);
+                //hud.Draw(spriteBatch, device);
+                hud.TutorialHud(spriteBatch, spriteFont);
             }
 
             spriteBatch.End();

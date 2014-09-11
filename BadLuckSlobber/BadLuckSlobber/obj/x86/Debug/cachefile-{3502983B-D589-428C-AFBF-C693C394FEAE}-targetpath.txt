@@ -1,3 +1,5 @@
+Content\Arial.xnb
+Content\Slobber.xnb
 Content\FloorTexture.xnb
 Content\Walltexture.xnb
 Content\TitleScreen.xnb
@@ -7,5 +9,3 @@ Content\NewGame.xnb
 Content\Quit.xnb
 Content\Settings.xnb
 Content\TitleScreenFinal.xnb
-Content\Arial.xnb
-Content\Slobber.xnb
