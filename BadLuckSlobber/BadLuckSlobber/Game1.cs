@@ -77,7 +77,7 @@ namespace BadLuckSlobber
 
             graphics.PreferredBackBufferWidth = 800;
             graphics.PreferredBackBufferHeight = 600;
-            graphics.IsFullScreen = false;
+            //graphics.IsFullScreen = false;
             graphics.ApplyChanges();
             Window.Title = "BadLuckSlobber";
 
@@ -179,12 +179,13 @@ namespace BadLuckSlobber
             ProcessKeyboard(gameTime);
 
             MouseGetState(gameTime);
-
+            
             // Update the player
             player.Update(gameTime);
 
             // Update the camera to chase the new target
             UpdateCameraChaseTarget();
+            
 
             // The chase camera's update behavior is the springs, but we can
             // use the Reset method to have a locked, spring-less camera
@@ -216,7 +217,7 @@ namespace BadLuckSlobber
             if (lastMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Released)
             {
                 MouseClicked(currentMouseState.X, currentMouseState.Y);
-                Console.WriteLine(Mouse.GetState());
+                //Console.WriteLine(Mouse.GetState());
             }
 
             //previousMouseState = mouseState;
@@ -238,8 +239,8 @@ namespace BadLuckSlobber
                 Rectangle exitButtonRect = new Rectangle((int)gameMenu.exitButtonPosition.X,
                             (int)gameMenu.exitButtonPosition.Y, 130, 70);
 
-                bool wahrheit = mouseClickRect.Intersects(startButtonRect);
-                Console.WriteLine(wahrheit);
+                //bool wahrheit = mouseClickRect.Intersects(startButtonRect);
+                //Console.WriteLine(wahrheit);
 
                 //player clicked start button
                 if (mouseClickRect.Intersects(startButtonRect)) 
@@ -247,19 +248,47 @@ namespace BadLuckSlobber
                     gameMenu.gameState = GameMenu.GameStates.Playing;
                 }
 
+                //player clicked credits button
+                if (mouseClickRect.Intersects(creditsButtonRect))
+                {
+                    gameMenu.gameState = GameMenu.GameStates.Credits;
+                }
+
+                //player clicked settings button
+                if (mouseClickRect.Intersects(settingsButtonRect))
+                {
+                    gameMenu.gameState = GameMenu.GameStates.Settings;
+                }
+
                 //player clicked exit button
-                if (mouseClickRect.Intersects(exitButtonRect) || mouseClickRect.Intersects(settingsButtonRect))
+                if (mouseClickRect.Intersects(exitButtonRect))
                 {
                     this.Exit();
                 }
-
-                //player clicked crfedits button
-                else if (mouseClickRect.Intersects(creditsButtonRect) == true) 
-                {
-                    this.Exit();
-                }
-
             }
+            if ((gameMenu.gameState == GameMenu.GameStates.Settings)||(gameMenu.gameState == GameMenu.GameStates.Credits))
+            {
+                Rectangle backButtonRect = new Rectangle((int)gameMenu.backButtonPosition.X, (int)gameMenu.backButtonPosition.Y, 100, 70);
+                Rectangle FullScreenRect = new Rectangle((int)gameMenu.OffButtonPosition.X, (int)gameMenu.OffButtonPosition.Y, 100, 70);
+
+                if (mouseClickRect.Intersects(backButtonRect))
+                {
+                    gameMenu.gameState = GameMenu.GameStates.StartMenu;
+                }
+                if (gameMenu.gameState == GameMenu.GameStates.Settings)
+                {
+                    if (mouseClickRect.Intersects(FullScreenRect))
+                    {
+                        if (graphics.IsFullScreen == false)
+                        {
+                            graphics.IsFullScreen = true;
+                        }
+                        else graphics.IsFullScreen = false;
+                    }
+                    graphics.ApplyChanges();
+                }
+            }
+
         }
 
         private void UpdateCameraChaseTarget()
@@ -319,6 +348,24 @@ namespace BadLuckSlobber
                 level.DrawLevel(camera);
                 //hud.Draw(spriteBatch, device);
                 hud.TutorialHud(spriteBatch, spriteFont);
+            }
+
+            if (gameMenu.gameState == GameMenu.GameStates.Settings)
+            {
+                gameMenu.DrawSettingMenu(Window, spriteBatch);
+                if (graphics.IsFullScreen == false)
+                {
+                    spriteBatch.Draw(gameMenu.OffButton, gameMenu.OffButtonPosition, Color.White);
+                }
+                else if (graphics.IsFullScreen)
+                {
+                    spriteBatch.Draw(gameMenu.OnButton, gameMenu.OnButtonPosition, Color.White);
+                }
+            }
+
+            if (gameMenu.gameState == GameMenu.GameStates.Credits)
+            {
+                gameMenu.DrawCreditsMenu(Window, spriteBatch);
             }
 
             spriteBatch.End();

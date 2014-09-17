@@ -9,3 +9,9 @@ Content\NewGame.xnb
 Content\Quit.xnb
 Content\Settings.xnb
 Content\TitleScreenFinal.xnb
+Content\BackgroundMenu.xnb
+Content\Back.xnb
+Content\SettingsMenu.xnb
+Content\Off.xnb
+Content\On.xnb
+Content\CreditsMenu.xnb

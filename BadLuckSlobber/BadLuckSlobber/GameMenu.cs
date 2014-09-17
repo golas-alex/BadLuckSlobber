@@ -16,16 +16,14 @@ namespace BadLuckSlobber
     {
         #region Variable Declaration
 
-        public Texture2D titleScreen;
-        public Texture2D startButton;
-        public Texture2D creditsButton, settingsButton;
-        public Texture2D exitButton;
+        public Texture2D titleScreen, settingsScreen, creditsScreen;
+        public Texture2D startButton, creditsButton, settingsButton, exitButton;
+        public Texture2D backButton, OffButton, OnButton;
            
-        public Vector2 startButtonPosition;
-        public Vector2 creditsButtonPosition, settingsButtonPosition;
-        public Vector2 exitButtonPosition;
+        public Vector2 startButtonPosition, creditsButtonPosition, settingsButtonPosition, exitButtonPosition;
+        public Vector2 backButtonPosition, OffButtonPosition, OnButtonPosition;
         
-        public enum GameStates { StartMenu, Playing };
+        public enum GameStates { StartMenu, Playing , Settings, Credits};
         public GameStates gameState = GameStates.StartMenu;
       
         #endregion
@@ -37,16 +35,24 @@ namespace BadLuckSlobber
             creditsButtonPosition = new Vector2(600, 200);
             settingsButtonPosition = new Vector2(600, 280);
             exitButtonPosition = new Vector2(600, 350);
+            backButtonPosition = new Vector2(30, 50);
+            OffButtonPosition = new Vector2(680, 220);
+            OnButtonPosition = new Vector2(680, 220);
 
         }
 
         public void LoadContent(ContentManager Content, GraphicsDeviceManager graphics)
         {
             titleScreen = Content.Load<Texture2D>("TitleScreenFinal");
+            settingsScreen = Content.Load<Texture2D>("SettingsMenu");
+            creditsScreen = Content.Load<Texture2D>("CreditsMenu");
             startButton = Content.Load<Texture2D>("NewGame");
             creditsButton = Content.Load<Texture2D>("Credits");
             settingsButton = Content.Load<Texture2D>("Settings");
             exitButton = Content.Load<Texture2D>("Quit");
+            backButton = Content.Load<Texture2D>("Back");
+            OffButton = Content.Load<Texture2D>("Off");
+            OnButton = Content.Load<Texture2D>("On");
             
         }
 
@@ -58,5 +64,19 @@ namespace BadLuckSlobber
             spriteBatch.Draw(settingsButton, settingsButtonPosition, Color.White);
             spriteBatch.Draw(exitButton, exitButtonPosition, Color.White);   
         }
+
+        public void DrawSettingMenu(GameWindow Window, SpriteBatch spriteBatch)
+        {
+            spriteBatch.Draw(settingsScreen, new Rectangle(0, 0, Window.ClientBounds.Width, Window.ClientBounds.Height), Color.White);
+            spriteBatch.Draw(backButton, backButtonPosition, Color.White);
+
+        }
+
+        public void DrawCreditsMenu(GameWindow Window, SpriteBatch spriteBatch)
+        {
+            spriteBatch.Draw(creditsScreen, new Rectangle(0, 0, Window.ClientBounds.Width, Window.ClientBounds.Height), Color.White);
+            spriteBatch.Draw(backButton, backButtonPosition, Color.White);
+        }
+
     }
 }

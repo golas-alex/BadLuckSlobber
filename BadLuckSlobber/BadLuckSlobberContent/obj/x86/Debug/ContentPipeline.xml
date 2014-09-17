@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Arial.xnb</Output>
-      <Time>2014-09-12T00:05:10.2559905+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Arial.xnb</Output>
+      <Time>2014-09-16T11:22:05.5724357+02:00</Time>
     </Item>
     <Item>
       <Source>Slobber.x</Source>
@@ -16,11 +16,11 @@
       <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber.xnb</Output>
-      <Time>2014-09-12T00:05:10.3319948+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber.xnb</Output>
+      <Time>2014-09-16T11:22:05.595437+02:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Slobber_0.xml</Key>
-        <Value>2014-09-12T00:47:40.4078508+02:00</Value>
+        <Value>2014-09-16T13:05:18.8651208+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -29,8 +29,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FloorTexture.xnb</Output>
-      <Time>2014-09-12T00:05:10.3049933+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FloorTexture.xnb</Output>
+      <Time>2014-09-16T11:22:05.5894366+02:00</Time>
     </Item>
     <Item>
       <Source>Walltexture.jpg</Source>
@@ -38,8 +38,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Walltexture.xnb</Output>
-      <Time>2014-09-12T00:05:10.3809976+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Walltexture.xnb</Output>
+      <Time>2014-09-16T11:22:05.6024374+02:00</Time>
     </Item>
     <Item>
       <Source>TitleScreen.png</Source>
@@ -47,8 +47,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreen.xnb</Output>
-      <Time>2014-09-12T00:05:10.3409953+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreen.xnb</Output>
+      <Time>2014-09-16T11:22:05.5974371+02:00</Time>
     </Item>
     <Item>
       <Source>TitleScreenBright.png</Source>
@@ -56,8 +56,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenBright.xnb</Output>
-      <Time>2014-09-12T00:05:10.3539961+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenBright.xnb</Output>
+      <Time>2014-09-16T11:22:05.5994372+02:00</Time>
     </Item>
     <Item>
       <Source>Credits.png</Source>
@@ -65,8 +65,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Credits.xnb</Output>
-      <Time>2014-09-12T00:05:10.299993+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Credits.xnb</Output>
+      <Time>2014-09-16T11:22:05.5884366+02:00</Time>
     </Item>
     <Item>
       <Source>NewGame.png</Source>
@@ -74,8 +74,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\NewGame.xnb</Output>
-      <Time>2014-09-12T00:05:10.3109936+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\NewGame.xnb</Output>
+      <Time>2014-09-16T11:22:05.5894366+02:00</Time>
     </Item>
     <Item>
       <Source>Quit.png</Source>
@@ -83,8 +83,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Quit.xnb</Output>
-      <Time>2014-09-12T00:05:10.3129937+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Quit.xnb</Output>
+      <Time>2014-09-16T11:22:05.5894366+02:00</Time>
     </Item>
     <Item>
       <Source>Settings.png</Source>
@@ -92,8 +92,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Settings.xnb</Output>
-      <Time>2014-09-12T00:05:10.316994+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Settings.xnb</Output>
+      <Time>2014-09-16T11:22:05.5904367+02:00</Time>
     </Item>
     <Item>
       <Source>TitleScreenFinal.png</Source>
@@ -101,15 +101,69 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenFinal.xnb</Output>
-      <Time>2014-09-12T00:05:10.3659968+02:00</Time>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenFinal.xnb</Output>
+      <Time>2014-09-16T11:22:05.6014373+02:00</Time>
     </Item>
     <Item>
       <Source>Slobber.x</Source>
       <Importer>XImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Slobber_0.xml</Output>
-      <Time>2014-09-12T00:05:10.3319948+02:00</Time>
+      <Time>2014-09-16T11:22:05.595437+02:00</Time>
+    </Item>
+    <Item>
+      <Source>BackgroundMenu.png</Source>
+      <Name>BackgroundMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\BackgroundMenu.xnb</Output>
+      <Time>2014-08-30T11:39:29+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Back.png</Source>
+      <Name>Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Back.xnb</Output>
+      <Time>2014-09-16T16:18:38.2981906+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SettingsMenu.png</Source>
+      <Name>SettingsMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\SettingsMenu.xnb</Output>
+      <Time>2014-09-16T14:51:56+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Off.png</Source>
+      <Name>Off</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Off.xnb</Output>
+      <Time>2014-09-16T14:57:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>On.png</Source>
+      <Name>On</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\On.xnb</Output>
+      <Time>2014-09-16T14:55:55+02:00</Time>
+    </Item>
+    <Item>
+      <Source>CreditsMenu.png</Source>
+      <Name>CreditsMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\CreditsMenu.xnb</Output>
+      <Time>2014-09-16T16:37:57+02:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -117,10 +171,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -149,7 +203,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2014-04-11T11:29:23.9120328+02:00</Value>
+        <Value>2014-08-22T20:11:22.0292359+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
