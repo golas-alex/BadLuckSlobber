@@ -10,142 +10,199 @@ namespace BadLuckSlobber
 {
     class Player
     {
+        
         #region Fields
-
-        private const float MinimumAltitude = 350.0f;
-
-        public Vector3 Position;
-        public Vector3 Direction;
-        public Vector3 Up;
-        private Vector3 right;
-        public Vector3 Right
-        {
-            get { return right; }
-        }
-
-        private const float RotationRate = 1.5f;
-        private const float Mass = 1.0f;
-        private const float ThrustForce = 20000.0f;
-        private const float DragFactor = 0.97f;
-        public Vector3 Velocity;
-
-        public Matrix PlayerWorld;
-
-        bool jump = false;
-        int jumpvalue = 200;
-        int gravity = 5;
-        int beforeJump = 0;
-
+        
+        //need for Rotation
+        public Vector3 playerPosition;
+        public Quaternion playerRotation = Quaternion.Identity;
+        public float turningSpeed;
+        
         #endregion
-
+        
         #region Initialization
 
         public Player(GraphicsDevice device)
         {
-            Reset();
+            playerPosition = new Vector3(1.5f, 0.135f, -3f);
         }
 
-        public void Reset()
+
+        public void UpdatePosition(GameTime gameTime, KeyboardState keyboardState)
         {
-            Position = new Vector3(0, MinimumAltitude, 0);
-            Direction = Vector3.Forward;
-            Up = Vector3.Up;
-            right = Vector3.Right;
-            Velocity = Vector3.Zero;
-        }
+            //KeyboardState keyboardState = Keyboard.GetState();
+            float leftRightRot = 0;
+            turningSpeed = 0.02f;
+            float jumpValue = 1.0f;
+            //float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            float gravity = 0.025f;
+            bool isJumping = false;
 
+            //Vector3 jump = new Vector3(
+
+            Vector3 addVector = Vector3.Transform(new Vector3(0, 0, 1), playerRotation);
+
+            if (keyboardState.IsKeyDown(Keys.D))
+                leftRightRot -= turningSpeed;
+            if (keyboardState.IsKeyDown(Keys.A))
+                leftRightRot += turningSpeed;
+            if (keyboardState.IsKeyDown(Keys.W))
+                playerPosition += addVector * turningSpeed;
+            if (keyboardState.IsKeyDown(Keys.S))
+                playerPosition -= addVector * turningSpeed;
+
+            if (keyboardState.IsKeyDown(Keys.Space) && isJumping == false)
+            {
+                Vector3 v = new Vector3(0, jumpValue, 0);
+                playerPosition.Y += v.Y;
+                isJumping = true;
+            }
+            if (isJumping == true && playerPosition.Y > 0.3f)
+            {
+                Vector3 v = new Vector3(0, -gravity, 0);
+                playerPosition.Y += v.Y;
+            }
+            if (isJumping == true && playerPosition.Y <= 0.3f)
+            {
+                isJumping = false;
+            }
+
+            Quaternion additionalRot = Quaternion.CreateFromAxisAngle(new Vector3(0, 1, 0), leftRightRot);
+            playerRotation *= additionalRot;
+
+
+        }
         #endregion
+
 
         #region Methods
 
-        public void Jump(int gravity, int jumpvalue)
+/*
+        public Vector3 Update(GameTime gameTime, KeyboardState keyState)
         {
-            Position.Y += jumpvalue;
-            jumpvalue -= gravity;
+            KeyboardState keyboardState = keyState;
 
-        }
-
-        public void Update(GameTime gameTime)
-        {
-            KeyboardState keyboardState = Keyboard.GetState();
-            GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
-
-            float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
-
-            // Determine rotation amount from input
-            Vector2 rotationAmount = gamePadState.ThumbSticks.Left;
-            if (keyboardState.IsKeyDown(Keys.A))
-                rotationAmount.X = 1.0f;
-            if (keyboardState.IsKeyDown(Keys.D))
-                rotationAmount.X = -1.0f;
-
-            if (keyboardState.IsKeyDown(Keys.Up) && jump == false)
-            {
-                jump = true;
-                int vor_sprung = Convert.ToInt16(Position.Y);
-            }
-
-            if (jump == true)
-            {
-                Position.Y += jumpvalue;
-                jumpvalue -= gravity;
-
-                if (Position.Y == beforeJump)
-                {
-                    jump = false;
-                    jumpvalue = 200;
-                }
-            }
-            
-            // Scale rotation amount to radians per second
-            rotationAmount = rotationAmount * RotationRate * elapsed;
-
-            // Create rotation matrix from rotation amount
-            Matrix rotationMatrix =
-            Matrix.CreateFromAxisAngle(Right, rotationAmount.Y) *
-            Matrix.CreateRotationY(rotationAmount.X);
-
-            // Rotate orientation vectors
-            Direction = Vector3.TransformNormal(Direction, rotationMatrix);
-            Up = Vector3.TransformNormal(Up, rotationMatrix);
-
-            Direction.Normalize();
-            Up.Normalize();
-
-            // Re-calculate Right
-            right = Vector3.Cross(Direction, Up);
-
-            Up = Vector3.Cross(Right, Direction);
-
-            // Determine thrust amount from input
-            float thrustAmount = 0;
             if (keyboardState.IsKeyDown(Keys.W))
-                thrustAmount = -1.0f;
+            {
+                Position.X = Position.X - moveSpeed;
+            }
+
             if (keyboardState.IsKeyDown(Keys.S))
-                thrustAmount = +1.0f;
+            {
+                Position.X = Position.X + moveSpeed;
+            }
 
-            // Calculate force from thrust amount
-            Vector3 force = Direction * thrustAmount * ThrustForce;
+            if (keyboardState.IsKeyDown(Keys.Q))
+            {
+                Position.Z = Position.Z + moveSpeed;
+            }
 
-            // Apply acceleration
-            Vector3 acceleration = force / Mass;
-            Velocity += acceleration * elapsed;
+            if (keyboardState.IsKeyDown(Keys.E))
+            {
+                Position.Z = Position.Z - moveSpeed;
+            }
 
-            // Apply psuedo drag
-            Velocity *= DragFactor;
+            if (keyboardState.IsKeyDown(Keys.A))
+            {
+                //Rotation
+            }
 
-            // Apply velocity
-            Position += Velocity * elapsed;
+            if (keyboardState.IsKeyDown(Keys.D))
+            {
+                //Rotation
+            }
+        
+            //if (keyboardState.IsKeyDown(Keys.Up) && jump == false)
+            //{
+            //    jump = true;
+            //    int vor_sprung = Convert.ToInt16(Position.Y);
+            //}
 
-            Position.Y = Math.Max(Position.Y, MinimumAltitude);
+            //if (jump == true)
+            //{
+            //    Position.Y += jumpvalue;
+            //    jumpvalue -= gravity;
 
-            PlayerWorld = Matrix.Identity;
-            PlayerWorld.Forward = Direction;
-            PlayerWorld.Up = Up;
-            PlayerWorld.Right = right;
-            PlayerWorld.Translation = Position;
+            //    if (Position.Y == beforeJump)
+            //    {
+            //        jump = false;
+            //        jumpvalue = 200;
+            //    }
+            //}
+
+            return Position;
         }
+ 
+        /// <summary>
+            /// Updates the position and direction of the avatar.
+            /// </summary>
+            public Vector3 UpdateAvatarPosition(GameTime gametime, KeyboardState keyboardState)
+            {
+               //KeyboardState keyboardState = Keyboard.GetState();
+               //GamePadState currentState = GamePad.GetState(PlayerIndex.One);
+                
+               if (keyboardState.IsKeyDown(Keys.Left) )
+               {
+                   // Rotate left.
+                   avatarRot += rotationSpeed;
+               }
+               if (keyboardState.IsKeyDown(Keys.Right))
+               {
+                   // Rotate right.
+                   avatarRot -= rotationSpeed;
+               }
+               
+               if (keyboardState.IsKeyDown(Keys.Up))
+               {
+                   Matrix forwardMovement = Matrix.CreateRotationY(avatarRot);
+                   Vector3 v = new Vector3(0, 0, moveSpeed);
+                   v = Vector3.Transform(v, forwardMovement);
+                   Position.Z += v.Z;
+                   Position.X += v.X;
+               }
+               if (keyboardState.IsKeyDown(Keys.Down))
+               {
+                   Matrix forwardMovement = Matrix.CreateRotationY(avatarRot);
+                   Vector3 v = new Vector3(0, 0, -moveSpeed);
+                   v = Vector3.Transform(v, forwardMovement);
+                   Position.Z += v.Z;
+                   Position.X += v.X;
+               }
+               return Position;
+            }
+        */
+        /// <summary>
+            /// Updates the position and direction of the camera relative to the avatar.
+            /// </summary>
+
+            //void UpdateCamera(Matrix world, Matrix view, Matrix proj)
+            //{
+            //   // Calculate the camera's current position.
+            //   //Vector3 thirdPersonReference = new Vector3(0, 100, -100);
+
+            //   Matrix rotationMatrix = Matrix.CreateRotationY(avatarRot);
+
+            //   // Create a vector pointing the direction the camera is facing.
+            //   //Vector3 transformedReference =
+            //   //   Vector3.Transform(thirdPersonReference, rotationMatrix);
+
+            //   // Calculate the position the camera is looking from.
+            //   //Vector3 cameraPosition = transformedReference + Position;
+
+            //   // Calculate the position the camera is looking at.
+            //   //Vector3 cameraLookat = cameraPosition + transformedReference;
+
+            //   // Set up the view matrix and projection matrix.
+            //   //view = Matrix.CreateLookAt(cameraPosition, avatarPosition, new Vector3(0.0f, 1.0f, 0.0f));
+
+            //   //Viewport viewport = graphics.GraphicsDevice.Viewport;
+            //   //float aspectRatio = (float)viewport.Width / (float)viewport.Height;
+
+            //   //projection = Matrix.CreatePerspectiveFieldOfView(viewAngle, aspectRatio, nearClip, farClip);
+            //}
+
 
         #endregion
+        
     }
 }

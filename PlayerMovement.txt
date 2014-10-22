@@ -1,0 +1,72 @@
+        //need for Rotation
+        public Vector3 playerPosition;
+        public Matrix playerRotation = Matrix.Identity;
+
+        public float leftRightRot = 0;
+        public float turningSpeed = 0.03f;
+        public float jumpValue = 1.0f;
+        //float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
+        public float gravity = 0.025f;
+        public bool isJumping = false;
+        
+        //bool jump = false;
+        //int jumpvalue = 200;
+        //int gravity = 5;
+        //int beforeJump = 0;
+        
+        #endregion
+        
+        #region Initialization
+
+        public Player(GraphicsDevice device)
+        {
+            playerPosition = new Vector3(1.5f, 0.3f, -4.0f);
+        }
+
+
+        public Vector3 UpdatePosition(GameTime gameTime)
+        {
+            KeyboardState keyboardState = Keyboard.GetState();
+            //float leftRightRot = 0;
+            //float turningSpeed = 0.03f;
+            //float jumpValue = 1.0f;
+            ////float elapsed = (float)gameTime.ElapsedGameTime.TotalSeconds;
+            //float gravity = 0.025f;
+            //bool isJumping = false;
+
+            //Vector3 jump = new Vector3(
+
+            Vector3 addVector = Vector3.Transform(new Vector3(0, 0, 1), playerRotation);
+
+            if (keyboardState.IsKeyDown(Keys.D))
+                leftRightRot -= turningSpeed;
+            if (keyboardState.IsKeyDown(Keys.A))
+                leftRightRot += turningSpeed;
+            if (keyboardState.IsKeyDown(Keys.W))
+                playerPosition += addVector * turningSpeed;
+            if (keyboardState.IsKeyDown(Keys.S))
+                playerPosition -= addVector * turningSpeed;
+
+            if (keyboardState.IsKeyDown(Keys.Space) && isJumping == false)
+            {
+                Vector3 v = new Vector3(0, jumpValue, 0);
+                playerPosition.Y += v.Y;
+                isJumping = true;
+            }
+            if (isJumping == true && playerPosition.Y > 0.3f)
+            {
+                Vector3 v = new Vector3(0, -gravity, 0);
+                playerPosition.Y += v.Y;
+            }
+            if (isJumping == true && playerPosition.Y <= 0.3f)
+            {
+                isJumping = false;
+            }
+
+            Matrix additionalRot = Matrix.CreateFromAxisAngle(new Vector3(0, 1, 0), leftRightRot);
+            playerRotation *= additionalRot;
+            playerPosition = Vector3.Transform(playerPosition, playerRotation);
+
+            return playerPosition;
+        }
+        #endregion

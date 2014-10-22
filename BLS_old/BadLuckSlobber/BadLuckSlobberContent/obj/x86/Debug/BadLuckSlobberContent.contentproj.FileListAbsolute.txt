@@ -1,0 +1,6 @@
+C:\Users\Golas\Documents\Visual Studio 2010\Projects\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\BadLuckSlobberContent.contentprojResolveAssemblyReference.cache
+C:\Users\Golas\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\BadLuckSlobberContent.contentprojResolveAssemblyReference.cache
+C:\Users\Beanigna\Desktop\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\BadLuckSlobberContent.contentprojResolveAssemblyReference.cache
+C:\Documents\Uni\Softwareproject\BadLuckSlobber-master\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\BadLuckSlobberContent.contentprojResolveAssemblyReference.cache
+C:\Users\Bealinchen\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\BadLuckSlobberContent.contentprojResolveAssemblyReference.cache
+C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\BadLuckSlobberContent.contentprojResolveAssemblyReference.cache

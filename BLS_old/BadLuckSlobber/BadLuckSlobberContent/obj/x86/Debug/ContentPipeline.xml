@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Arial.spritefont</Source>
+      <Name>Arial</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Arial.xnb</Output>
+      <Time>2014-09-16T11:22:05.5724357+02:00</Time>
+    </Item>
+    <Item>
+      <Source>FloorTexture.jpg</Source>
+      <Name>FloorTexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FloorTexture.xnb</Output>
+      <Time>2014-09-16T11:22:05.5894366+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Walltexture.jpg</Source>
+      <Name>Walltexture</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Walltexture.xnb</Output>
+      <Time>2014-09-16T11:22:05.6024374+02:00</Time>
+    </Item>
+    <Item>
+      <Source>TitleScreen.png</Source>
+      <Name>TitleScreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreen.xnb</Output>
+      <Time>2014-09-16T11:22:05.5974371+02:00</Time>
+    </Item>
+    <Item>
+      <Source>TitleScreenBright.png</Source>
+      <Name>TitleScreenBright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenBright.xnb</Output>
+      <Time>2014-09-16T11:22:05.5994372+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Credits.png</Source>
+      <Name>Credits</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Credits.xnb</Output>
+      <Time>2014-09-16T11:22:05.5884366+02:00</Time>
+    </Item>
+    <Item>
+      <Source>NewGame.png</Source>
+      <Name>NewGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\NewGame.xnb</Output>
+      <Time>2014-09-16T11:22:05.5894366+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Quit.png</Source>
+      <Name>Quit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Quit.xnb</Output>
+      <Time>2014-09-16T11:22:05.5894366+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Settings.png</Source>
+      <Name>Settings</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Settings.xnb</Output>
+      <Time>2014-09-16T11:22:05.5904367+02:00</Time>
+    </Item>
+    <Item>
+      <Source>TitleScreenFinal.png</Source>
+      <Name>TitleScreenFinal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\TitleScreenFinal.xnb</Output>
+      <Time>2014-09-16T11:22:05.6014373+02:00</Time>
+    </Item>
+    <Item>
+      <Source>BackgroundMenu.png</Source>
+      <Name>BackgroundMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\BackgroundMenu.xnb</Output>
+      <Time>2014-08-30T11:39:29+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Back.png</Source>
+      <Name>Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Back.xnb</Output>
+      <Time>2014-09-16T16:18:38.2981906+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SettingsMenu.png</Source>
+      <Name>SettingsMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\SettingsMenu.xnb</Output>
+      <Time>2014-09-16T14:51:56+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Off.png</Source>
+      <Name>Off</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Off.xnb</Output>
+      <Time>2014-09-16T14:57:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>On.png</Source>
+      <Name>On</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\On.xnb</Output>
+      <Time>2014-09-16T14:55:55+02:00</Time>
+    </Item>
+    <Item>
+      <Source>CreditsMenu.png</Source>
+      <Name>CreditsMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\CreditsMenu.xnb</Output>
+      <Time>2014-09-16T16:37:57+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Slobber.FBX</Source>
+      <Name>Slobber</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber.xnb</Output>
+      <Time>2014-09-17T19:54:09+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Slobber_1.xml</Key>
+        <Value>2014-09-21T19:31:01.8685527+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\UV map slobber_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Slobber.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Slobber_1.xml</Output>
+      <Time>2014-09-17T19:54:09+02:00</Time>
+    </Item>
+    <Item>
+      <Source>UV map slobber.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\UV map slobber_0.xnb</Output>
+      <Time>2014-09-17T19:52:34+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Slobber2.FBX</Source>
+      <Name>Slobber2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber2.xnb</Output>
+      <Time>2014-09-23T01:25:52+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Slobber2_0.xml</Key>
+        <Value>2014-09-23T01:30:26.1458818+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\UV map slobber_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Slobber1.FBX</Source>
+      <Name>Slobber1</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\Slobber1.xnb</Output>
+      <Time>2014-09-23T01:26:56+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\Slobber1_0.xml</Key>
+        <Value>2014-09-23T01:30:26.3558821+02:00</Value>
+      </Dependency>
+      <Request>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FBX\765E2443\Slobber1.fbm\UV map slobber_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>Slobber2.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Slobber2_0.xml</Output>
+      <Time>2014-09-23T01:25:52+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Slobber1.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\Slobber1_0.xml</Output>
+      <Time>2014-09-23T01:26:56+02:00</Time>
+    </Item>
+    <Item>
+      <Source>obj\x86\Debug\FBX\765E2443\Slobber1.fbm\UV map slobber.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\FBX\765E2443\Slobber1.fbm\UV map slobber_0.xnb</Output>
+      <Time>2014-09-23T01:30:26.3458821+02:00</Time>
+    </Item>
+    <Item>
+      <Source>SlobberGlas.FBX</Source>
+      <Name>SlobberGlas</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\SlobberGlas.xnb</Output>
+      <Time>2014-09-23T02:14:49+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\SlobberGlas_0.xml</Key>
+        <Value>2014-09-23T02:16:55.7051492+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>SlobberGlas.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\SlobberGlas_0.xml</Output>
+      <Time>2014-09-23T02:14:49+02:00</Time>
+    </Item>
+    <Item>
+      <Source>DennisSlobber.x</Source>
+      <Name>DennisSlobber</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\DennisSlobber.xnb</Output>
+      <Time>2014-09-16T11:22:05.595437+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\DennisSlobber_0.xml</Key>
+        <Value>2014-09-23T16:18:53.8258833+02:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>DennisSlobber.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\DennisSlobber_0.xml</Output>
+      <Time>2014-09-16T11:22:05.595437+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobberContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Beanigna\Desktop\BadLuckSlobber\BadLuckSlobber\BadLuckSlobber\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-08-22T20:11:22.0292359+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

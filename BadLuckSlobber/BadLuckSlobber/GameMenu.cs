@@ -16,14 +16,14 @@ namespace BadLuckSlobber
     {
         #region Variable Declaration
 
-        public Texture2D titleScreen, settingsScreen, creditsScreen;
+        public Texture2D titleScreen, settingsScreen, creditsScreen, pauseScreen;
         public Texture2D startButton, creditsButton, settingsButton, exitButton;
         public Texture2D backButton, OffButton, OnButton;
            
         public Vector2 startButtonPosition, creditsButtonPosition, settingsButtonPosition, exitButtonPosition;
         public Vector2 backButtonPosition, OffButtonPosition, OnButtonPosition;
         
-        public enum GameStates { StartMenu, Playing , Settings, Credits};
+        public enum GameStates { StartMenu, Playing , Settings, Credits, PauseMenu};
         public GameStates gameState = GameStates.StartMenu;
       
         #endregion
@@ -46,6 +46,7 @@ namespace BadLuckSlobber
             titleScreen = Content.Load<Texture2D>("TitleScreenFinal");
             settingsScreen = Content.Load<Texture2D>("SettingsMenu");
             creditsScreen = Content.Load<Texture2D>("CreditsMenu");
+            pauseScreen = Content.Load<Texture2D>("Screens/PauseMenu");
             startButton = Content.Load<Texture2D>("NewGame");
             creditsButton = Content.Load<Texture2D>("Credits");
             settingsButton = Content.Load<Texture2D>("Settings");
@@ -76,6 +77,11 @@ namespace BadLuckSlobber
         {
             spriteBatch.Draw(creditsScreen, new Rectangle(0, 0, Window.ClientBounds.Width, Window.ClientBounds.Height), Color.White);
             spriteBatch.Draw(backButton, backButtonPosition, Color.White);
+        }
+
+        public void DrawPauseMenu(GameWindow Window, SpriteBatch spriteBatch)
+        {
+            spriteBatch.Draw(pauseScreen, new Rectangle(0, 0, Window.ClientBounds.Width, Window.ClientBounds.Height), Color.White);
         }
 
     }
